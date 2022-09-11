@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background = "#121212"
+    android:layout_height="100dp">
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            style="@style/TextAppearance.Compat.Notification.Title"
+        android:textColor="#fff"
+           
+
+            android:text="Expense Tracker"
+
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+            
+            android:textSize="15sp" />
+    
+<LinearLayout
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_height="65dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/money_in_title"
+            android:layout_width="fill_parent"
+            android:layout_height="22dp"
+            style="@style/TextAppearance.Compat.Notification.Info"
+        
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Money In"
+            
+            android:textSize="14sp" />
+
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/money_in"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+
+            android:text="0"
+
+            android:textColor="#10e059"
+            android:drawableRight="@drawable/south" 
+            android:drawablePadding="2dp"
+            android:padding="0dp"
+            android:textSize="28sp"
+            android:layout_height="wrap_content" />
+
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1" />-->
+    </LinearLayout>
+
+<!--    <Space-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="98dp"-->
+<!--        android:layout_weight="0.2" />-->
+
+    <LinearLayout
+        android:layout_height="65dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/money_out_title"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            style="@style/TextAppearance.Compat.Notification.Info"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Money Out"
+
+            android:textSize="14sp" />
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/money_out"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+
+            android:text="0"
+            android:textColor="#f71b1b"
+            android:drawablePadding="2dp"
+            android:padding="0dp"
+            android:drawableRight="@drawable/north" 
+            android:textSize="28sp"
+            android:layout_height="wrap_content" />
+
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1" />-->
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
